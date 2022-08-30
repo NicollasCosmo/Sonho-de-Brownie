@@ -1,25 +1,50 @@
 #banner {
 
-	width: 100%
+	width: 100%;
+	margin: 0 0 0 0;
+	
 }
 
 
 .principal {
 
-	padding: 30px;
-	background: pink
+	
+	background: pink;
+	margin: 0 0 0 0;
 
 }
 
 .titulo-principal {
 
-	color: darkmagenta
+	color: darkmagenta;
+	text-align: center;
+	font-size: 55px;
+}
+
+nav {
+
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+nav li {
+
+	display: inline;
+}
+
+
+nav a {
+
+	margin: 0 0 0 70px;
+	
 }
 
 .sobre {
 
 	color: darkmagenta;
 	text-align: center;
+	margin: 0 0 0 0;
 	
 }
 
