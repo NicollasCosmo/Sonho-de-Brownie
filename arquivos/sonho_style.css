@@ -1,0 +1,63 @@
+#banner {
+
+	width: 100%
+}
+
+
+.principal {
+
+	padding: 30px;
+	background: pink
+
+}
+
+.titulo-principal {
+
+	color: darkmagenta
+}
+
+.sobre {
+
+	color: darkmagenta;
+	text-align: center;
+	
+}
+
+.paragrafo-centralizado {
+	text-align: center;
+	font-size: 18px
+}
+
+
+
+
+.itens {
+
+	font-style: italic;
+	font-size: 20px
+}
+
+.titulo-centralizado {
+
+	text-align: center;
+	color: darkmagenta
+}
+
+.produtos {
+
+	background: #ffffff;
+	padding: 20px
+}
+
+ul{
+
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 10%
+}
+
+.imagemprodutos{
+
+	width: 50%
+}
