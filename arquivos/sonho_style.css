@@ -1,3 +1,12 @@
+header {
+
+	background: pink;
+	
+
+}
+
+
+
 #banner {
 
 	width: 100%;
@@ -9,7 +18,7 @@
 .principal {
 
 	
-	background: pink;
+	
 	margin: 0 0 0 0;
 
 }
@@ -25,32 +34,50 @@ nav {
 
 	text-align: center;
 	text-transform: uppercase;
+	margin: 40px 0 0 0;
 	
 }
 
 nav li {
 
 	display: inline;
+	
 }
 
 
 nav a {
 
 	margin: 0 0 0 70px;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	color: darkmagenta;
 	
+}
+
+nav a:hover {
+
+	color: rgb(150, 101, 160);
+	text-decoration: underline;
 }
 
 .sobre {
 
 	color: darkmagenta;
 	text-align: center;
-	margin: 0 0 0 0;
+	margin: 20px 0 0 0;
+	padding: 0 0 15px 0;
+	font-size: 25px;
+	font-weight: bold;
+	
 	
 }
 
 .paragrafo-centralizado {
 	text-align: center;
-	font-size: 18px
+	font-size: 18px;
+	font-style: italic;
+	
 }
 
 
@@ -65,7 +92,11 @@ nav a {
 .titulo-centralizado {
 
 	text-align: center;
-	color: darkmagenta
+	color: darkmagenta;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 40px 0 0 0;
+	
 }
 
 .produtos {
@@ -79,10 +110,51 @@ ul{
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
-	margin-right: 10%
+	margin: 0 0 0 60px;
 }
 
 .imagemprodutos{
 
-	width: 50%
+	width: 50%;
+	margin: 0 0 0 120px;
+}
+
+main {
+
+	width: 940px;
+    margin: 0 auto;
+}
+
+form {
+
+	margin: 40px 0;
+}
+
+label {
+
+	font-size: 20px;
+	margin: 0 0 10px;
+	display: inline-block;
+}
+
+
+
+.input-padrao {
+
+	display: block;
+	margin: 0 0 20px;
+	width: 50%;
+	padding: 10px 10px;
+
+}
+
+legend {
+
+	font-size: 20px;
+	margin: 20px 0 10px;
+}
+
+.input-radio {
+
+	margin: 0 5px 0 15px;
 }
