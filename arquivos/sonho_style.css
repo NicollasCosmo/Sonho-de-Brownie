@@ -154,7 +154,90 @@ legend {
 	margin: 20px 0 10px;
 }
 
+.legendas {
+
+	font-size: 22px;
+	font-style: italic;
+}
+
 .input-radio {
 
 	margin: 0 5px 0 15px;
+}
+
+.bolo-vulcao {
+
+	margin: 15px 0 0 0;
+}
+
+.checkbox {
+
+	margin: 20px 0 ;
+	font-weight: bold;
+	
+}
+
+textarea {
+
+	display: block;
+	width: 80%;
+	margin: 0 0 15px;
+
+}
+
+.observacao {
+
+	margin: 20px 0 10px 0;
+}
+
+.enviar {
+
+	padding: 15px 0;
+	margin: 20px 0 0 0;
+	width: 40%;
+	background: pink;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+	color: darkmagenta;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 1s all;
+	
+}
+
+.enviar-contato {
+
+	padding: 10px 0;
+	width: 10%;
+	background: pink;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+	color: darkmagenta;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 1s all;
+
+}
+
+.enviar-contato:hover {
+
+	background: rgb(236, 116, 136);
+	transform: scale(1.2);
+}
+
+
+.enviar:hover {
+
+	background: rgb(236, 116, 136);
+	transform: scale(1.2);
+}
+
+.contato-titulo {
+
+	font-size: 24px;
+	margin: 50px 0 0 0;
+
+	
 }

@@ -26,16 +26,16 @@
     <main>
         <form>
             <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome" class="input-padrao">
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
             <label for="email">Email</label>
-            <input type="email" id="email" class="input-padrao">
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
 
             <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
 
             <fieldset>
-                <Legend>Qual tipo de Brownie você deseja?</Legend>
+                <Legend class="legendas">Qual tipo de Brownie você deseja?</Legend>
                 <select>
                     <option>Nenhum</option>
                     <option>Tradicional</option>
@@ -57,8 +57,43 @@
                 <label for="radio-castanha"><input name="rech" type="radio" value="castanha do Pará" id="radio-cantanha" class="input-radio">Castanha do Pará</label>
 
                 
-                <label for="radio-amendoim"><input name="rach" type="radio" value="amendoim" id="radio-amendoim" class="input-radio">Amendoim</label>
+                <label for="radio-amendoim"><input name="rech" type="radio" value="amendoim" id="radio-amendoim" class="input-radio">Amendoim</label>
+
             </fieldset>
+
+            <label class="checkbox"><input type="checkbox">Adcional de morangos por apenas R$ 2,00</label>
+
+            <fieldset class="bolo-vulcao">
+
+                <legend class="legendas">Qual será o tipo de massa do seu Bolo Vulcão?</legend>
+
+                <select>
+                    <option>Nenhum</option>
+                    <option>Branca</option>
+                    <option>Chocolate</option>
+                    <option>Mesclada</option>
+                </select>
+
+                <legend>Escolha a sua cobertura</legend>
+
+                <Label for="radio-chocolate"><input name="cob" type="radio" value="chocolate" id="radio-chocolate" >Chocolate</Label>
+
+                <Label for="radio-doisamores"><input name="cob" type="radio" value="doisamores" id="radio-chocolate" class="input-radio" >Dois Amores</Label>
+
+                <Label for="radio-pacoca"><input name="cob" type="radio" value="pacoca" id="radio-chocolate" class="input-radio" >Paçoca</Label>
+
+                <Label for="radio-redvelvet"><input name="cob" type="radio" value="redvelvet" id="radio-Redvelvet" class="input-radio">Red Velvet</Label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <label for="observacao" class="observacao">Deixe alguma observação</label>
+                <textarea cols="70" rows="10" id="observacao"></textarea>
+
+            </fieldset>
+
+            <input type="submit" value="Enviar pedido" class="enviar">
 
         </form>
 
