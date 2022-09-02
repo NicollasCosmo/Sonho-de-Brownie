@@ -241,3 +241,35 @@ textarea {
 
 	
 }
+
+footer {
+
+	text-align: center;
+	background: rgb(255, 153, 170);
+	color: darkmagenta;
+	padding: 40px 0;
+
+
+}
+
+.esquerdo {
+
+	display: inline;
+}
+
+.direito {
+
+	display: inline;
+}
+
+
+.horario {
+
+	margin: 15px 0 0 0;
+	font-weight: bold;
+}
+
+.Copyright {
+
+	margin: 20px 0 0 0;
+}
