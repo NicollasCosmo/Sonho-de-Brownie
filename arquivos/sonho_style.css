@@ -273,3 +273,116 @@ footer {
 
 	margin: 20px 0 0 0;
 }
+
+/* css responsivo - index*/
+
+@media screen and (max-width:480px) {
+	
+
+	.titulo-principal {
+
+		font-size: 44px;
+	}
+
+	nav {
+
+		text-align: center;
+	}
+
+
+	nav a {
+
+		font-size: 15px;
+		margin: 0 15px 0 0px;
+		
+	}
+
+	.paragrafo-centralizado {
+
+		font-size: 12px;
+	}
+
+	.titulo-centralizado {
+
+		margin: 20px 0 0 0;
+		font-size: 15px;
+	}
+
+
+	ul {
+
+		margin: 15px 0 0 15px;
+		
+		
+	}
+
+	.itens {
+
+		font-size: 10px;
+	}
+
+	.imagemprodutos {
+
+		margin: 15px 0 0 15px;
+		width: 50%;
+	}
+
+	.funcionamento {
+
+		font-size: 13px;
+	}
+
+
+
+	/* css responsivo - contato*/
+
+	form, main  {
+
+		width: auto;
+	}
+
+	.input-padrao {
+
+		width: 85%;
+	}
+
+	form {
+
+		margin: 25px 0  0 10px;
+	}
+
+	.contato-titulo {
+
+		font-size: 20px;
+		margin: 25px 0  0 10px;
+	}
+
+	textarea {
+
+		width: 90%;
+	}
+
+	.enviar-contato {
+
+		width: 20%;
+		margin: 20px 0;
+	}
+
+
+	/*css responsivo - pedidos*/
+
+	.checkbox, .legendas {
+
+		font-size: 18px;
+	}
+
+	.enviar {
+
+		margin: 15px 0;
+	}
+
+
+
+
+
+}
